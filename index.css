@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#whole-container1{
+     height: 100%;
+     width: 100%;
+     background-color: #18171F;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+#whole-container2{
+    height: 75%;
+    width: 40%;
+    display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+}
+#main-div1{
+ height: 10%;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-family: 'JetBrains Mono', monospace;
+ font-weight: 700;
+ font-size: 28px;
+ line-height: 32px;
+ color: #817D92;
+ padding-top: 20px;
+}
+#main-div2{
+ height: 10%;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ background-color: #24232C;
+}
+#main-div3{
+ height: 75%;
+ width: 100%;
+ margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ background-color: #24232C;
+}
+#password-div{
+height: 100%;
+width: 85%;
+display: flex;
+align-items: center;
+text-align: left;
+padding-left: 50px;
+font-family: 'JetBrains Mono', monospace;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+color: #E6E5EA;
+}
+#copy-button{
+height: 100%;
+width: 17%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+font-size: 30px;
+padding-right: 20px;
+color: #24232C;
+font-family: 'JetBrains Mono', monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+}
+.fa-regular{
+  color: #A4FFAF;
+}
+.fa-regular:hover{
+  color: white;
+}
+#char-length-div{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+#range-opt-div{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: #24232C ;
+}
+#option-div{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#password-strength{
+    height: 12%;
+    width: 80%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #18171F;
+    color: #817D92;
+    margin-bottom: 40px;
+}
+#generate-button{
+    height: 12%;
+    width: 80%;
+    margin-bottom: 30px;
+    background-color: #A4FFAF;
+    border: 2px solid transparent;
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #24232C;
+}
+#generate-button:hover{
+  background-color: transparent;
+  color: #A4FFAF;
+  border: 2px solid #A4FFAF;
+}
+#char-length-div1{
+height: 80%;
+width: 90%;
+display: flex;
+padding-left: 50px;
+align-items: center;
+font-family: 'JetBrains Mono', monospace;
+font-weight: 700;
+font-size: 21px;
+line-height: 24px;
+color: #E6E5EA;
+}
+#char-length-div2{
+    height: 80%;
+    width: 10%;
+    padding-right: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #A4FFAF;
+}
+/* input[type="range"] {
+    -webkit-appearance: none;
+    margin-top: 10px;
+    width: 80%;
+    height: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(#A4FFAF, #A4FFAF);
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+  }
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: black;
+    border: 2px solid #A4FFAF;
+  }
+  
+  input[type="range"]::-moz-range-thumb:hover {
+    background: #A4FFAF;
+  }
+  
+  input[type="range"]::-ms-thumb:hover {
+    background: #A4FFAF;
+  }
+  
+    input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  } */
+
+  input[type=range] {
+    height: 38px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 90%;
+    background-color: #24232C;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 5px #000000;
+    background: #A4FFAF;
+    border-radius: 16px;
+    border: 1px solid #000000;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 5px #080708;
+    border: 1px solid #FFFFFF;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -11px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #A4FFAF;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 5px #000000;
+    background: #A4FFAF;
+    border-radius: 16px;
+    border: 1px solid #000000;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 5px #080708;
+    border: 1px solid #FFFFFF;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #A4FFAF;
+    border: 1px solid #000000;
+    border-radius: 32px;
+    box-shadow: 1px 1px 5px #000000;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #A4FFAF;
+    border: 1px solid #000000;
+    border-radius: 32px;
+    box-shadow: 1px 1px 5px #000000;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 1px 1px 5px #080708;
+    border: 1px solid #FFFFFF;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #A4FFAF;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #A4FFAF;
+  }
+  
+  .check-box-class{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  margin-left: 80px;
+  width: 90%;
+  height: 8%;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E6E5EA;
+  }
+  .container {
+    display: flex;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  /* Hide the default checkbox */
+  .container input {
+    visibility: hidden;
+    cursor: pointer;
+  }
+  
+  /* Create a custom checkbox */
+  .mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  
+  .container:hover input ~ .mark {
+    background-color: transparent;
+    border-color: #A4FFAF;
+  }
+  
+  .container input:checked ~ .mark {
+    background-color: #A4FFAF;
+    border: 0px solid transparent;
+  }
+  
+  /* Create the mark/indicator (hidden when not checked) */
+  .mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the mark when checked */
+  .container input:checked ~ .mark:after {
+    display: block;
+  }
+  
+  /* Style the mark/indicator */
+  .container .mark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  #strenght-show-div{
+    margin-left: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 40px;
+  }
+  #strength-letter{
+    color: #E6E5EA;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .strength-anim{
+    height: 30px;
+    width: 10px;
+    border: 3px solid white;
+  }
