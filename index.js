@@ -11,7 +11,7 @@ function rangeGive(){
     lengthShowDiv.innerText=range.value;
 }
 
-//Function to password strength color show
+//Function to password strength color shows
 function passwordStrength() {
     if(strengthCount == 1){
         document.getElementById("strength-letter").innerText="TOO WEAK!";
